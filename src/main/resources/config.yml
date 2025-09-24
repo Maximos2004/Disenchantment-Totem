@@ -1,0 +1,34 @@
+# ------------------------------------------------ #
+#        Disenchantment Totem Configuration        #
+# ------------------------------------------------ #
+
+totem-settings:
+  # Default radius of the totem's effect in blocks.
+  default-radius: 30
+
+  # Additional radius granted for each lectern that has a book on it.
+  radius-per-book: 5
+
+  # If true, Enchanted Golden Apples will be converted to regular Golden Apples
+  # when you enter the totem area, and converted back when you leave.
+  convert-enchanted-golden-apples: true
+
+  # If true, players will be unable to use Enchanting Tables or Anvils
+  # while inside the totem's area of effect.
+  prevent-enchanting-in-zone: true
+
+effects:
+  # --- Particle Toggles ---
+  # Set these to false to disable specific particle effects.
+  floor-particles-enabled: true
+  book-particles-enabled: true
+  sucking-particles-enabled: true
+
+  # --- Sound Toggle ---
+  # If true, the totem will emit a faint, ambient humming sound.
+  idle-sound-enabled: true
+
+messages:
+  # If true, players will see the "You feel the enchantments..." messages
+  # when entering and leaving the totem's area of effect.
+  show-enter-exit-messages: true
