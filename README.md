@@ -1,3 +1,5 @@
+This is the official public repo for the Minecraft Server Plugin:
+
 # ✨ Disenchantment Totem ✨
 Introducing the Disenchantment Totem, a mystical structure that creates a dynamic zone of null magic. **Inside its radius, all enchantments are temporarily disabled (De-enchanted)** from your gear, **only to return the moment you step out (Re-enchanted)**.
 
