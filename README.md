@@ -1,18 +1,18 @@
 This is the official public repo for the Minecraft Server Plugin:
 
 # ✨ Disenchantment Totem ✨
-Introducing the Disenchantment Totem, a mystical structure that creates a dynamic zone of null magic. **Inside its radius, all enchantments are temporarily disabled (De-enchanted)** from your gear, **only to return the moment you step out (Re-enchanted)**.
+Introducing the Disenchantment Totem, a structure that creates a zone of null magic. **Inside its radius, all enchantments are temporarily disabled (De-enchanted)** from your gear, **only to return the moment you step out (Re-enchanted)**.
 
-It's the ultimate tool for creating fair PvP arenas, neutral trading hubs, or unique challenge zones where skill matters more than gear!
+It's the ultimate tool for creating fair PvP arenas, neutral trading hubs, or unique challenge zones where skill matters more than gear or even as a fun feature for an SMP!
 
 ![Totem showcase](https://cdn.modrinth.com/data/cached_images/3d2cb916190631c54e580f5c4a43175e9e6e0d3e.gif)
 
 
 ## 🔮 Core Features
 - **Seamless Enchantment Suppression:** Automatically and temporarily removes enchantments from all items in a player's inventory upon entering the totem's radius.
-- **Automatic Restoration:** Enchantments are instantly and safely returned the moment a player leaves the totem's influence.
+- **Automatic Restoration:** Enchantments are instantly returned when a player leaves the totem's radius.
 - **Inventory Safe:** Reliably tracks items even when they are moved in your inventory, dropped, or stored in containers within the zone.
-- **Golden Apple Conversion:** As a unique strategic feature, Enchanted Golden Apples are temporarily converted into regular Golden Apples inside the zone (toggleable in config).
+- **Golden Apple Conversion:** As a feature, Enchanted Golden Apples are temporarily converted into regular Golden Apples inside the zone (toggleable in config).
 - **Expandable Radius:** Increase the totem's power and range by placing books on its four lecterns. More books mean a larger area of effect!
 - **Stunning & Configurable Effects:** Features beautiful, server-friendly particle effects that visually represent the totem's power. Every single effect can be turned on or off in the config!
 - **Built-in Protection:** Prevents players from using Enchanting Tables and Anvils while inside the totem's radius.
